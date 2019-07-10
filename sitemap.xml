@@ -2,62 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
             <loc>/en/</loc>
-            <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>daily</changefreq>
             <priority>0.8</priority>
         </url>
                 <url>
             <loc>/en/expertise/</loc>
-            <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>daily</changefreq>
             <priority>0.8</priority>
         </url>
                 <url>
             <loc>/en/projects/</loc>
-            <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>daily</changefreq>
             <priority>0.8</priority>
         </url>
                 <url>
             <loc>/en/blog/</loc>
-            <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>daily</changefreq>
             <priority>0.8</priority>
         </url>
                 <url>
             <loc>/en/contact/</loc>
-            <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>daily</changefreq>
             <priority>0.8</priority>
         </url>
                     <url>
             <loc>/de/</loc>
-            <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-            <changefreq>weekly</changefreq>
+            <changefreq>daily</changefreq>
             <priority>0.8</priority>
         </url>
                         <url>
         <loc>/en/projects/wingu</loc>
-        <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
         <url>
         <loc>/en/projects/e-invoicing</loc>
-        <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
         <url>
         <loc>/en/projects/e-reception</loc>
-        <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
         <url>
         <loc>/en/projects/procurement-rfq-vendor-rating</loc>
-        <lastmod>2019-07-10T16:01:37+02:00</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     </urlset>

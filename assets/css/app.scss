@@ -26,10 +26,6 @@ $headings-margin-bottom: 1.5rem;
   margin: -72px 0 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   min-width: 320px;
   min-height: 640px;
@@ -221,21 +217,30 @@ main h1 a {
   }
 }
 
+.overlay-content {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
 @include media-breakpoint-down(md) {
   .overlay {
     z-index: 1;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
-    max-height: 100%;
+    height: 100%;
     position: fixed;
     background-color: $black;
     color: $white;
     overflow-y: auto;
+    display: flex;
+    align-content: flex-end;
 
     .overlay-content {
       padding: 0 25px 25px;
-      min-height: 100vh;
       flex-direction: row;
       flex-wrap: wrap;
       align-content: flex-end;
