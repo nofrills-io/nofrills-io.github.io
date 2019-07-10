@@ -1,0 +1,14 @@
+{
+  "build/app.css": "/build/app.css",
+  "build/app.js": "/build/app.js",
+  "build/icons/android-chrome-192x192.png": "/build/icons/android-chrome-192x192.png",
+  "build/icons/android-chrome-256x256.png": "/build/icons/android-chrome-256x256.png",
+  "build/icons/apple-touch-icon.png": "/build/icons/apple-touch-icon.png",
+  "build/icons/browserconfig.xml": "/build/icons/browserconfig.xml",
+  "build/icons/favicon-16x16.png": "/build/icons/favicon-16x16.png",
+  "build/icons/favicon-32x32.png": "/build/icons/favicon-32x32.png",
+  "build/icons/mstile-150x150.png": "/build/icons/mstile-150x150.png",
+  "build/icons/safari-pinned-tab.svg": "/build/icons/safari-pinned-tab.svg",
+  "build/icons/site.webmanifest": "/build/icons/site.webmanifest",
+  "build/nofrills/logo.png": "/build/nofrills/logo.png"
+}
