@@ -2,6 +2,7 @@ $gray: #efeded;
 $black: #121111;
 $body-color: $black;
 $primary: #947CA7;
+$light-gray: #cecece;
 $headings-font-weight: 700;
 $spacer-y: 2.375rem;
 $link-color: $black;
@@ -263,7 +264,7 @@ main h1 a {
         color: $white;
 
         @include hover-focus {
-          color: #cecece;
+          color: $light-gray;
         }
       }
 
@@ -271,13 +272,23 @@ main h1 a {
         flex-basis: 100%;
       }
 
-      .nav-item:not(.nav-item-language) .nav-link-active:after {
-        content: '●';
-        font-size: 25px;
-        padding-left: 12px;
-        vertical-align: middle;
-        top: -2px;
-        position: relative;
+      .nav-item:not(.nav-item-language) {
+        .nav-link-active:after {
+          content: '';
+          position: relative;
+          height: 11px;
+          width: 11px;
+          font-size: 1rem;
+          background-color: #fff;
+          border-radius: 11px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 14px;
+        }
+
+        .nav-link-active:hover:after {
+          background-color: $light-gray;
+        }
       }
 
       .nav-divider:after {
@@ -364,14 +375,22 @@ main h1 a {
         }
 
         .nav-link-active:after {
-          content: '●';
+          content: '';
           display: inline-block;
           position: absolute;
-          bottom: -0.5em;
+          bottom: -4px;
           left: 0;
-          text-align: center;
-          width: 100%;
+          height: 8px;
+          width: 8px;
           font-size: 1rem;
+          background-color: $black;
+          border-radius: 8px;
+          right: 0;
+          margin: 0 auto;
+        }
+
+        .nav-link-active:hover:after {
+          background-color: $primary;
         }
       }
     }
