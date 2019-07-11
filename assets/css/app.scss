@@ -370,6 +370,8 @@ main h1 a {
   .overlay {
     .navbar-nav {
       .nav-item {
+        margin: 0 10px;
+
         .nav-link {
           position: relative;
         }
@@ -392,6 +394,10 @@ main h1 a {
         .nav-link-active:hover:after {
           background-color: $primary;
         }
+      }
+
+      .nav-item-language {
+        margin: 0;
       }
     }
   }
