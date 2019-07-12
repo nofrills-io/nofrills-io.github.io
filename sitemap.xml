@@ -30,6 +30,26 @@
             <changefreq>daily</changefreq>
             <priority>0.8</priority>
         </url>
+                <url>
+            <loc>/de/expertise/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+                <url>
+            <loc>/de/projekten/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+                <url>
+            <loc>/de/blog/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+                <url>
+            <loc>/de/kontakt/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
                         <url>
         <loc>/en/projects/wingu</loc>
         <changefreq>daily</changefreq>
