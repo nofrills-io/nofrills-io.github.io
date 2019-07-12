@@ -14,8 +14,12 @@ $hr-border-width: 1px;
 $hr-margin-y: $spacer-y;
 $h1-font-size: 2.625rem;
 $h2-font-size: 1.75rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.3rem;
+$h5-font-size: 1.3rem;
+$h6-font-size: 1.3rem;
 $grid-gutter-width: 32px;
-$line-height-base: 1.15;
+$line-height-base: 1.25;
 $headings-margin-bottom: 1.5rem;
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
@@ -208,6 +212,10 @@ main h1 a {
   margin: 0 10px;
 }
 
+footer .nav-item {
+  font-size: 80%;
+}
+
 @media (max-width: 360px) {
   html {
     font-size: small;
@@ -258,6 +266,7 @@ main h1 a {
 
     .navbar-nav {
       flex-basis: 100%;
+      line-height: 1.15;
 
       .nav-link {
         font-size: 42px;
@@ -314,6 +323,10 @@ main h1 a {
 @include media-breakpoint-up(lg) {
   html {
     font-size: large;
+  }
+
+  body {
+    line-height: 1.5;
   }
 
   main {
@@ -380,7 +393,7 @@ main h1 a {
           content: '';
           display: inline-block;
           position: absolute;
-          bottom: -4px;
+          bottom: 0;
           left: 0;
           height: 8px;
           width: 8px;
