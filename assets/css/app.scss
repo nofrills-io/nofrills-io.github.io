@@ -57,12 +57,20 @@ body {
   background-color: $white;
 }
 
+.bg-dark {
+  background-color: $black !important
+}
+
 main {
   min-height: calc(100vh - 254px);
 }
 
 .body-default main {
   padding-bottom: $spacer-y;
+}
+
+.body-single-page main {
+  padding-bottom: 0;
 }
 
 article {
@@ -145,6 +153,18 @@ main small a, footer small a {
   .bottom-bar {
     top: 24px;
   }
+}
+
+.team-member-list-item {
+  margin-bottom: 3rem;
+
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+}
+
+.team-member-list-item-box {
+  margin-top: -25px;
 }
 
 .project-list, .post-list {
@@ -292,6 +312,10 @@ main small a, footer small a {
   margin: 0 10px;
 }
 
+.body-single-page footer {
+  padding-top: $spacer-y;
+}
+
 footer .nav-item {
   font-size: 80%;
 }
@@ -427,7 +451,6 @@ footer .nav-item {
     overflow: hidden;
     text-overflow: clip;
     display: flex;
-    align-items: center;
     height: 100%;
     left: 0;
     top: 0;
@@ -593,6 +616,16 @@ footer .nav-item {
   .body-dark {
     .header-title {
       color: $white;
+    }
+  }
+
+  .team-member-list-item-box {
+    margin-top: -40px;
+  }
+
+  .team-member-list-item {
+    &:nth-last-child(2) {
+      margin-bottom: 0;
     }
   }
 
